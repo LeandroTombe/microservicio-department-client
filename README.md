@@ -6,14 +6,18 @@ practice with microservices
 El primer servicio se trata de la configuracion de nuestro microservicio
 En una arquitectura basada en Microservicios tenemos varias piezas de software que muy probablemente requieran la misma configuración en cada uno de ellos. Para no escribir la misma configuración en cada uno de ellos podemos usar Spring Cloud Config Server y centralizar nuestra configuración en un solo lugar.
 
+Dependencia:
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-config-server</artifactId>
 </dependency>
 
+
+
+#### SERVER CLIENT
 Una vez que se configura el servidor centralizado, debemos tener servidores clientes, es decir que consulte la información del Servicio Config Server.
 
-
+Dependencia:
 <dependency>
   <groupId>org.springframework.cloud</groupId>
   <artifactId>spring-cloud-config-client</artifactId>
