@@ -1,6 +1,9 @@
 # microservicio-department-client
 practice with microservices
 
+![image](https://github.com/LeandroTombe/microservicio-department-client/assets/57770761/47e86249-b334-4b55-af74-24a68e1e5513)
+
+
 
 #### SERVER CONFIG
 El primer servicio se trata de la configuracion de nuestro microservicio
